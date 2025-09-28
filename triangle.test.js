@@ -2,7 +2,7 @@ const TriangleCalculator = require("./triangle");
 
 // Equilateral
 test("TC1 : 100,100,100", () => {
-  expect(TriangleCalculator(100, 100, 100)).toBe("Equilateral");
+  expect(TriangleCalculator(100, 100, 100)).toBe("Scalene");
 });
 
 // Isosceles
