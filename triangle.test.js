@@ -14,6 +14,7 @@ test("TC2 : 100,100,50", () => {
 test("TC3 : 70,60,50", () => {
   expect(TriangleCalculator(70, 60, 50)).toBe("Scalene");
 });
+// Output should be a Scalene triangle
 
 // Invalid triangle
 test("TC4 : 1,2,3", () => {
