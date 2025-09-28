@@ -12,7 +12,7 @@ function TriangleCalculator(a, b, c) {
     return "Value is out of range";
   }
   if (a + b <= c || a + c <= b || b + c <= a) {
-    output = "Not a triangle";
+    output = "Not a ";
   }
   //Check type
   else if (a == b && b == c) {
